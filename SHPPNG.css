@@ -1,0 +1,27 @@
+body{
+    background-color: blueviolet;
+}
+.main-con{
+    background-color: white;
+    width: 80%;
+    height: 600px;
+    margin: 0 auto;
+
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blueviolet;
+}
+
+.header-list{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+    justify-content: center;
+}

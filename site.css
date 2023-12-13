@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    margin: o auto;
+    display: flex;
+}
+.heading-con{
+    background-color: rgba(2, 2, 63, 0.979);
+    width: 300px;
+    padding: 20px;
+}
+.main-logo{
+    width: 300px;
+    font-size: 40px;
+    color: white;
+    text-transform: capitalize;
+    line-height: 2.5rem;
+}
+.main-logo span{
+    opacity:0.3;
+}
+.heading-list{
+    display: flex;
+    gap: 35px;
+    color: lightblue;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-top: 10px;
+}
+.list:first-child{
+    list-style: none;
+}
+.mini-logo{
+    color: white;
+    text-transform: uppercase;
+    margin-top: 300px;
+}
+.r-con{
+    display: flex;
+justify-content: space-between;
+}
+.main-form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 20px;
+}
+.my-input input{
+    width: 270px;
+    height: 30px;
+}
+button{
+    padding: 15px 45px;
+    background-color: skyblue;
+    color: white;
+    border: 0;
+    font-size: 15px;
+    border-radius: 3px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.h-p span{
+    color: aqua;
+}
+.h-p{
+    font-size: 15px;
+}
+.form-con{
+    padding: 0 30px;
+    width: 400px;
+}
+.form-con p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.form-head{
+    text-transform: capitalize;
+    padding-top: 20px;
+}
+.r-con i {
+    color: rgb(5, 243, 5);
+    font-size: 15px;
+}
+.r-con span{
+    font-weight:bolder ;
+}
